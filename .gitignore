@@ -7,3 +7,6 @@ js/node_modules
 lib/tests/rockdb_bc_data
 lib/tests/sled_bc_data
 venv
+
+# The data dir for testing (e.g. with docker)
+data/

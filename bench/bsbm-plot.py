@@ -11,7 +11,7 @@ def plot_y_per_x_per_plot(data, xlabel, ylabel, file, log=False):
     for i, (label, xys) in enumerate(sorted(data.items())):
         plt.bar(array(list(xys.keys())) + bar_width * (i + 1 - len(data) / 2), array(list(xys.values())), bar_width, label=label)
 
-    plt.legend()
+    # plt.legend()
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     if log:
